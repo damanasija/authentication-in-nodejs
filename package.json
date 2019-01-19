@@ -1,0 +1,18 @@
+{
+  "name": "authentication",
+  "version": "1.0.0",
+  "description": "to learn authentication basics",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Damanjeet Asija",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^2.0.1",
+    "client-sessions": "^0.8.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.17"
+  }
+}

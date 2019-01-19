@@ -1,0 +1,14 @@
+<% include ./partials/header %>
+
+  <title>Login</title>
+</head>
+<body>
+<h1>Login</h1>
+<form action="/login" method="post">
+  <input type="email" name="email" id="email" placeholder="Email" required>
+  <input type="text" name="password" id="password" required>
+  <input type="submit" value="Submit">
+</form>
+<p><%= error %></p>
+
+<% include ./partials/footer %>
